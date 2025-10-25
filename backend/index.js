@@ -9,7 +9,7 @@ import cors from "cors";
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://nutrition-frontend-lac.vercel.app",
+    origin: "https://nutri-balance-frontend.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // allow cookies
@@ -30,3 +30,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`server running successfully at ${PORT}`);
 });
+
