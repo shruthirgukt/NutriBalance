@@ -121,7 +121,7 @@ const AdminDashboard = () => {
           formData.append("folder", "items");
 
           const res = await axios.post(
-            "https://api.cloudinary.com/v1_1/davofmwez/image/upload",
+            "https://api.cloudinary.com/v1_1/dgaf5ooqg/image/upload",
             formData
           );
           uploadedUrls.push(res.data.secure_url);
@@ -700,3 +700,4 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
